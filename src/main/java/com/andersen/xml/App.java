@@ -40,7 +40,8 @@ public class App {
         //проверяем SAX парсер
         SAXPersonParser saxPersonParser = new SAXPersonParser();
         try {
-            saxPersonParser.parse("C:\\Users\\katya\\IdeaProjects\\json_xml\\person.xml");
+            //проверили парсер, он работает
+            System.out.println(saxPersonParser.parse("C:\\Users\\katya\\IdeaProjects\\json_xml\\person.xml"));
         } catch (IOException e) {
             e.printStackTrace();
         }

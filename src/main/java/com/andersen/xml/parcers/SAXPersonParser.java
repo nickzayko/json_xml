@@ -10,13 +10,11 @@ import java.io.IOException;
 import java.util.List;
 
 public class SAXPersonParser implements PersonParser {
-    private List<Person> personList;
-    public SAXPersonParser() {
-    }
+//    private List<Person> personList;
 
     @Override
     public List<Person> parse(String filePath) throws IOException {
-
+        List<Person> personList;
         try {
             SAXParser saxParser = SAXParserFactory.newInstance().newSAXParser();
             SAXHandler saxHandler = new SAXHandler();
