@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+    <person>
+        <id>1</id>
+        <name>Ivan</name>
+        <surname>Ivanov</surname>
+        <age>22</age>
+        <phoneNumber>+375 29 111 1111</phoneNumber>
+    </person>
+    <person>
+        <id>2</id>
+        <name>Petr</name>
+        <surname>Petrov</surname>
+        <age>23</age>
+        <phoneNumber>+375 33 222 2222</phoneNumber>
+    </person>
+    <person>
+        <id>3</id>
+        <name>Sidr</name>
+        <surname>Sidorov</surname>
+        <age>24</age>
+        <phoneNumber>+375 44 333 3333</phoneNumber>
+    </person>
+    <person>
+        <id>4</id>
+        <name>Serg</name>
+        <surname>Popov</surname>
+        <age>25</age>
+        <phoneNumber>+375 25 444 4444</phoneNumber>
+    </person>
+</list>
