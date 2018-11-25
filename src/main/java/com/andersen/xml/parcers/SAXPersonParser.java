@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.util.List;
 
 public class SAXPersonParser implements PersonParser {
-//    private List<Person> personList;
 
     @Override
     public List<Person> parse(String filePath) throws IOException {

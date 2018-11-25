@@ -1,13 +1,10 @@
 package com.andersen.xml.createXML;
 
-import com.andersen.xml.entity.Person;
 import com.andersen.xml.entity.PersonList;
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import java.io.File;
-import java.util.List;
 
 public class CreateXML {
     public CreateXML() {
